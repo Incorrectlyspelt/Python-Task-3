@@ -20,6 +20,14 @@ def main():
         average=(total_of_scores%3)
         print(total_of_scores)
         print(average)
+        name=split_line[4]
+        average=split_line[0]
+    print(sorted(file))
+    for line in file:
+        split_line_commas=line.split(",")
+        name=split_line_commas[4]
+        name=split_line_commas[0]
+        
 ##
 ##    while row_count != row_printed:#while the single alphabet is not equal to z - last letter in the alphabet
 ##        for line in file:
