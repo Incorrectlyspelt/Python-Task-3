@@ -20,3 +20,18 @@ def main():
         average=(total_of_scores%3)
         print(total_of_scores)
         print(average)
+##
+##    while row_count != row_printed:#while the single alphabet is not equal to z - last letter in the alphabet
+##        for line in file:
+##            listed_line=list(line)
+##            print(listed_line)
+####                print (line)
+####                row_printed=+1
+####            single_alphabet=alphabet[alpha_pos]
+####            #FINISHED!!!!!!!!!!!!
+##    print(row_count,row_printed)
+##    ValueError()
+##    exit
+
+if __name__ == '__main__':
+    main()
